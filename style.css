@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+
+:root {
+    --main-bg-color: rgb(9, 121, 249);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+
+    margin-left: 450px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar {
+    height: 8vh;
+    background: linear-gradient(to right,#9208e7, #1818f7, #27beff);
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    height: 100vh;
+}
+
+footer {
+    height: 12vh;
+    background: linear-gradient(to right,#9208e7, #1818f7, #27beff);
+    color: white;
+}
+
+.down-text {
+    padding-top: 9px;
+    text-align: center;
+}
+
+.slider {
+    background-color: grey;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.picslider {
+    height: 40vh;
+    width: 100vw;
+    background-size: contain;
+
+
+
+}
+
+.card {
+    margin: 3px 10px;
+    height: 25vh;
+    background-color: whitesmoke;
+    display: flex;
+    overflow: scroll;
+
+}
+
+
+
+
+b {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+}
+
+.content1 {
+    margin: 12px;
+}
+.cntimg {
+    height: 20vh;
+    width: 15vw;
+    border-radius: 4px;
+}
+
+
+
+.heading2 {
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 12px 6px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+ul {
+    padding: 3px 0 1px 5px;
+}
+
+.container2 {
+    height: 80vh;
+}
+
+
+.containerA {
+    height: 80vh;
+
+}
+
+.about {
+    text-align: center;
+}
+ul li a:hover{
+    color:red;
+}
+@media screen and (max-width:720px) {
+
+    ul {
+        margin-top: 50px;
+        display: flex;
+        font-size: 14px;
+    }
+
+    .heading {
+        margin-left: -58px;
+        text-align: center;
+        font-size: 21px;
+        font-family: 'Balsamiq Sans', cursive;
+        margin-bottom: 17px;
+    }
+
+    .cntimg {
+        width: 60vw;
+    }
+    .navbar{
+        height: 14vh;
+    }
+
+
+
+}
